@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INNELECTRO</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      font-family: Arial, sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+    }
+
+    .logo-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+    }
+
+    .site-logo {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    }
+
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 100px);
+      gap: 30px;
+      margin-top: 60px;
+    }
+
+    .icon-block {
+      width: 100px;
+      height: 100px;
+      background-color: #111;
+      border: 2px solid white;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s;
+    }
+
+    .icon-block:hover {
+      transform: scale(1.03);
+    }
+
+    .icon-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pode "cortar" o excesso */
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .manifesto {
+    text-align: center;
+    display: block;
+    margin: 80px auto 80px auto; /* topo, lados, baixo */
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.2s;
+    }
+
+    .texto {
+    text-align: center;
+    display: block;
+    margin: 0px auto 80px auto; /* topo, lados, baixo */
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.2s;
+    }
+
+    .foto {
+    text-align: center;
+    display: block;
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.2s;
+    }
+
+    .fotografo {
+    text-align: center;
+    display: block;
+    margin: 60px auto 80px auto; /* topo, lados, baixo */
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.2s;
+    }
+
+    .bandcamp {
+    text-align: center;
+    display: block;
+    margin: 10px auto 80px auto 40px auto; /* topo, lados, baixo */
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.2s;
+    }
+
+    .id {
+    text-align: center;
+    display: block;
+    margin: 50px auto; /* topo, lados, baixo */
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.2s;
+    }
+
+    .distro-livre {
+    text-align: center;
+    display: block;
+    margin: 0px auto 80px auto; /* topo, lados, baixo */
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.2s;
+    }
+
+</style>
+</head>
+<body>
+    <div class="logo-container">
+        <img src="https://i.imgur.com/5p3lFQB.png" alt="Logo Innelectro" class="site-logo">
+      </div>
+
+  <div class="icon-grid">
+    <a href="https://bandcamp.com" target="_blank" class="icon-block">
+      <img src="https://i.imgur.com/bfuceHw.png" alt="Bandcamp">
+    </a>
+    <a href="https://youtube.com" target="_blank" class="icon-block">
+      <img src="https://i.imgur.com/G4OhJVe.png" alt="YouTube">
+    </a>
+    <a href="https://twitch.tv/innelectro" target="_blank" class="icon-block">
+      <img src="https://i.imgur.com/wPVn5Sw.png" alt="Twitch">
+    </a>
+    <a href="mailto:email@example.com" class="icon-block">
+      <img src="https://i.imgur.com/jYf9cbz.png" alt="Email">
+    </a>
+    <a href="https://shopify.com" target="_blank" class="icon-block">
+      <img src="https://i.imgur.com/5JwGquC.png" alt="Shopify">
+    </a>
+    <a href="https://paypal.com" target="_blank" class="icon-block">
+      <img src="https://i.imgur.com/5TYYPbd.png" alt="PayPal">
+    </a>
+  </div>
+  <div class="manifesto">
+    <img src="https://i.imgur.com/dZlZO53.png" alt="Ficção Científica">
+  </div>
+  <div class="texto">
+    <img src="https://i.imgur.com/DWBRk9N.png" alt="Ficção Científica">
+  </div>
+  <div class="foto">
+    <img src="https://i.imgur.com/2q2StUw.png" alt="Ficção Científica">
+  </div>
+  <div class="fotografo">
+    <img src="https://i.imgur.com/FIB8WTz.png" alt="Ficção Científica">
+  </div>
+  <div class="bandcamp">
+    <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3387863355/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=1277645963/transparent=true/" seamless><a href="https://innelectro.bandcamp.com/album/crab-pulsar">Crab Pulsar de Innelectro</a></iframe>
+    <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2962067595/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://innelectro.bandcamp.com/album/innelectro-vela-pulsar">Innelectro - Vela Pulsar de Innelectro. Oddjo</a></iframe>
+  </div>
+
+  <div class="id">
+    <img src="https://i.imgur.com/wKgpDt1.png" alt="Ficção Científica">    
+    
+  </div>
+  <div class="distro-livre">
+    <img src="https://i.imgur.com/obb6j5F.png" alt="Ficção Científica"> 
+  </div>      
+  
+
+</body>
+</html>
